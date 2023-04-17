@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700;800&family=Macondo&family=Poppins:wght@200;300;400;500;600;700;800&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'K2D', sans-serif !important;
+}
+
+#main {
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #111111);
+    background: linear-gradient(to top, #434343, #111111);
+}
+
+#subMain {
+    height: 100vh;
+}
+
+.heading .hdg {
+    border-bottom: 3px solid #ffde21;
+    padding: 60px 0px 5px 0px;
+}
+
+.hdg h1 {
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #ffde21;
+}
+
+.accordions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 50px 0px;
+    display: flex;
+    gap: 40px;
+}
+.accordion{
+    /* background-color: lightgreen; */
+    border-radius: 6px;
+    padding: 10px 20px !important;
+    box-shadow: 0px 0px 12px #eeeeee;
+}
+.acdQuery{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+.acdQuery h5{
+    font-size: 2.4rem;
+    color: #eeeeee;
+}
+.acdQuery button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.acdQuery button span i{
+    font-size: 2.2rem;
+    font-weight: bold;
+    transform: rotate(0deg);
+    color: #ffde21;
+}
+.acdQuery i:hover{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.acdAnswer{
+    /* background-color: lightsalmon; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    border-top: 2px solid #ffde21;
+}
+.acdAnswer p{
+    font-size: 1.6rem;
+    color: #eeeeee;
+}
+
+.hide{
+    display: none;
+}
+
+
+

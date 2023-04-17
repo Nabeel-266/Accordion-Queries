@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordions</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Font-Awesome-Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BoxIcons  -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div id="main" class="container-fluid p-0 m-0">
+        <div id="subMain" class="container p-0">
+
+            <div class="heading row m-0">
+                <div class="hdg col-12">
+                    <h1 class="m-0">General Queries</h1>
+                </div>
+            </div>
+
+            <div class="accordions row px-0 m-0">
+
+                <div class="accordion col-11 col-lg-7">
+                    <div class="acdQuery">
+                        <h5 class="m-0">Do You Accept All Major Credit Cards?</h5>
+                        <button class="m-0 toggleBtn">
+                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                            <span class="minus hide"><i class="fa-solid fa-minus"></i></span>
+                        </button>
+                    </div>
+
+                    <div class="acdAnswer hide">
+                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eaque! Veniam labore reprehenderit fugiat ullam, laborum deserunt similique fugit excepturi.</p>
+                    </div>
+                </div>
+
+                <div class="accordion col-lg-7 col-11">
+                    <div class="acdQuery">
+                        <h5 class="m-0">Do You Use Organic Ingredients?</h5>
+                        <button class="m-0 toggleBtn">
+                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                            <span class="minus hide"><i class="fa-solid fa-minus"></i></span>
+                        </button>
+                    </div>
+
+                    <div class="acdAnswer hide">
+                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eaque! Veniam labore reprehenderit fugiat ullam, laborum deserunt similique fugit excepturi.</p>
+                    </div>
+                </div>
+
+                <div class="accordion col-lg-7 col-11">
+                    <div class="acdQuery">
+                        <h5 class="m-0">Do You Suppport Local Farmers?</h5>
+                        <button class="m-0 toggleBtn">
+                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                            <span class="minus hide"><i class="fa-solid fa-minus"></i></span>
+                        </button>
+                    </div>
+
+                    <div class="acdAnswer hide">
+                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eaque! Veniam labore reprehenderit fugiat ullam, laborum deserunt similique fugit excepturi.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
