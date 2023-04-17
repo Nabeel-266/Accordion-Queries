@@ -97,3 +97,69 @@ body {
 
 
 
+/* Smartphones Mobile Small*/
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 7px;
+    }
+    .accordions{
+        gap: 35px;
+    }
+    .accordion{
+        padding: 10px 12px !important;
+    }
+    .heading .hdg {
+        border-bottom: 2px solid #ffde21;
+        padding: 50px 0px 5px 0px;
+    }
+    .acdQuery{
+        padding: 12px 0px;
+    }
+    .acdQuery h5{
+        font-size: 1.96rem;
+    }
+    .acdQuery button span i{
+        font-size: 2rem;
+    }
+}
+
+
+/* Smartphones Mobile Medium*/
+@media(min-width: 321px) and (max-width: 375px) {
+    html {
+        font-size: 7px;
+    }
+    .accordions{
+        gap: 35px;
+    }
+    .heading .hdg {
+        border-bottom: 2px solid #ffde21;
+        padding: 50px 0px 5px 0px;
+    }
+    .acdQuery{
+        padding: 14px 0px;
+    }
+    .acdQuery h5{
+        font-size: 2.15rem;
+    }
+    .acdQuery button span i{
+        font-size: 2rem;
+    }
+}
+
+/* Smartphones Mobile Large*/
+@media(min-width: 376px) and (max-width: 500px) {
+    html {
+        font-size: 8px;
+    }
+    .heading .hdg {
+        border-bottom: 2px solid #ffde21;
+        padding: 50px 0px 5px 0px;
+    }
+    .acdQuery h5{
+        font-size: 2.2rem;
+    }
+    .acdQuery button span i{
+        font-size: 2rem;
+    }
+}
